@@ -26,9 +26,9 @@ public class BinaryTree {
         System.out.println(bn.root.left.left.left.right.value);
         System.out.println(bn.root.right.left.value);
         System.out.println(bn.root.right.right.value);
-        System.out.println(bn.root.right.left.left.value);
-        System.out.println(bn.root.right.left.left.left.value);
-        System.out.println(bn.root.right.left.left.right.value);
-
+        System.out.println(bn.root.right.left.right.value);
+        System.out.println(bn.root.right.left.right.left.value);
+        System.out.println(bn.root.right.left.right.right.value);
+        System.out.println(bn.search(63));
     }
 }
