@@ -65,6 +65,17 @@ class MyHashTable {
         }
         return 0;
     }
+
+    public void remove(String key) {
+        int hash = getHash(key);
+        LinkedList<MyMapNode> list = table[hash];
+        for (MyMapNode node : list) {
+            if (node.getKey().equals(key)) {
+                list.remove(node);
+                return;
+            }
+        }
+    }
 }
 
 class Main {
@@ -73,8 +84,11 @@ class Main {
         String paragraph = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
         String[] words = paragraph.split(" ");
         for (String word : words) {
-            table.put(word, 1);
+            if (!word.equals("avoidable")) {
+                table.put(word, 1);
+            }
         }
+        table.remove("avoidable");
         int frequency = table.get("paranoid");
         System.out.println("Frequency of 'paranoid': " + frequency);
     }
