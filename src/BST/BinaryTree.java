@@ -1,4 +1,4 @@
-package Data_Structure;
+package BST;
 public class BinaryTree {
     public static void main(String[] args) {
         BinaryNode bn = new BinaryNode();

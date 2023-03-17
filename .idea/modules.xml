@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Hash Tables.iml" filepath="$PROJECT_DIR$/Hash Tables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hash Tables and Binary Search Tree.iml" filepath="$PROJECT_DIR$/Hash Tables and Binary Search Tree.iml" />
     </modules>
   </component>
 </project>
