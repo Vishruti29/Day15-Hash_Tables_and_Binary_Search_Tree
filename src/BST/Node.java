@@ -1,4 +1,4 @@
-package Data_Structure;
+package BST;
 public class Node {
   int value;
   Node left;

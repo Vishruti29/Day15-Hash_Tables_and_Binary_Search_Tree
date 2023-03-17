@@ -1,4 +1,4 @@
-package Data_Structure;
+package BST;
 public class BinaryNode extends Node {
    Node root = null;
     public boolean search(int value) {
